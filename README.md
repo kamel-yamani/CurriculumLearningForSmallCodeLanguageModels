@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8d8833b1-630f-450d-85d5-cd01cbcf3202)# Curriculum Learning for Small Code Language Models
+# Curriculum Learning for Small Code Language Models
 
 This repository contains code and models_checkpoint for the paper "Curriculum Learning for Small Code Language Models". It implements training and evaluation of code language models on the TinyPy dataset using various curriculum learning techniques.
 
