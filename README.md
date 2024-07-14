@@ -1,4 +1,4 @@
-# Curriculum Learning for Code Language Models
+# Curriculum Learning for Small Code Language Models
 
 This repository contains code, data and models_checkpoint for the paper "Curriculum Learning for Small Code Language Models". It implements training and evaluation of code language models on the TinyPy dataset using various curriculum learning techniques.
 
@@ -57,19 +57,19 @@ python train_baseline.py
 To train with hybrid curriculum learning:
 
 ```bash
-python train_baseline.py
+python code/train_hybrid_cl.py
 ```
 
 To train with incremental curriculum learning:
 
 ```bash
-python train_baseline.py
+python code/train_incremental_cl.py
 ```
 
 To train with sequential curriculum learning:
 
 ```bash
-python train_baseline.py
+python code/train_sequential_cl.py
 ```
 
 ### Evaluate a model
@@ -80,6 +80,12 @@ To evaluate a model, use one of the evaluation scripts. For example, to evaluate
 python evaluate_code_execution.py
 ```
 
+To evaluate code completion at the token level:
+
+```bash
+python code/evaluate_code_completion_tokenlevel.py
+```
+
 To evaluate code completion at the line level:
 
 ```bash
@@ -88,4 +94,4 @@ python code/evaluate_code_completion_linelevel.py
 
 ## Acknowledgement
 
-This work was supported in part through the NYU IT High Performance Computing resources, services, and staff expertise"
+This work was supported in part through the NYU IT High Performance Computing resources, services, and staff expertise
