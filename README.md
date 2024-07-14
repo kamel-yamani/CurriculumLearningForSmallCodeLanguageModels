@@ -1,4 +1,4 @@
-# Curriculum Learning for Small Code Language Models
+![image](https://github.com/user-attachments/assets/8d8833b1-630f-450d-85d5-cd01cbcf3202)# Curriculum Learning for Small Code Language Models
 
 This repository contains code and models_checkpoint for the paper "Curriculum Learning for Small Code Language Models". It implements training and evaluation of code language models on the TinyPy dataset using various curriculum learning techniques.
 
@@ -31,9 +31,10 @@ The following models are included:
 
 The `data` folder should be added manually by downloading the dataset from Kaggle:
 
-1. Go to the Kaggle dataset [TinyPy for Curriculum Learning](https://www.kaggle.com/datasets/kamelmohammedyamani/tinypy-for-curriculum-learning).
-2. Download the dataset.
-3. Extract the contents and place them in the `data` folder in the following structure:
+1. Create a new folder named `data` inside the `code` folder.
+2. Go to the Kaggle dataset [TinyPy for Curriculum Learning](https://www.kaggle.com/datasets/kamelmohammedyamani/tinypy-for-curriculum-learning).
+3. Download the dataset.
+5. Extract the contents and place them in the `data` folder.
 
 ## Dependencies
 
