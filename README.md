@@ -1,6 +1,6 @@
 # Curriculum Learning for Small Code Language Models
 
-This repository contains code, data and models_checkpoint for the paper "Curriculum Learning for Small Code Language Models". It implements training and evaluation of code language models on the TinyPy dataset using various curriculum learning techniques.
+This repository contains code and models_checkpoint for the paper "Curriculum Learning for Small Code Language Models". It implements training and evaluation of code language models on the TinyPy dataset using various curriculum learning techniques.
 
 ## Directory Structure
 
