@@ -15,7 +15,7 @@ np.random.seed(seed)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-DATA_DIR = '/scratch/mn3620/data/New technique/level1 + level2 + level3'
+DATA_DIR = 'data/TinyPy_processed/all'
 
 # Hyperparameters
 block_size = 256
