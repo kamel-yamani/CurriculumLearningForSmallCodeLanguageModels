@@ -2,6 +2,8 @@
 
 This repository contains code and models_checkpoint for the paper "Curriculum Learning for Small Code Language Models". It implements training and evaluation of code language models on the TinyPy dataset using various curriculum learning techniques.
 
+You can access the paper using this link : https://aclanthology.org/2024.acl-srw.44/
+
 ## Directory Structure
 
 ```
